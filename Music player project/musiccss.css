@@ -1,0 +1,725 @@
+/*body*/
+body
+{
+	color: white;
+	background-color:#0C1027;
+	
+}
+
+img
+{
+	width: 100%;
+}
+
+/*body-header..section*/
+#body-header
+{
+	position: absolute;
+	top:0;
+	left: 0;
+	padding: 20px 20px 0px;
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+    background-color:#0C1027;
+    box-shadow: 0px 10px 20px 20px #0C1027;
+    box-sizing: border-box;
+    
+}
+
+.body-header-image
+{
+	height: 150px;
+	width: 150px;
+	padding: 15px;
+    border-radius: 50%;
+ 
+    
+}
+
+#body-image-title
+{
+	margin-top:28px;
+	margin-right: 200px;
+	
+}
+
+.mp-2
+{
+   margin-top: 2%;
+}
+#search
+{
+	width: 20%;
+	position: relative;
+	margin-right: 5%;
+}
+
+.search-bar-inside
+{
+	width: 100%;
+	position: absolute;
+}
+
+#search input[type="text"]
+{
+	padding: 6px 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    height: 35px;
+    font-weight: 700;
+    border: none;
+    background-color: #F4FAFA;
+    color: green;
+	outline: none;
+}
+
+#my-image.mp-2
+{
+	margin-top: 1%;
+}
+#my-image img
+{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+}
+
+
+/*main....section*/
+main
+{
+	margin-left: 3%;
+	margin-right: 6%;
+	margin-top: 180px ;
+	width: 60%;
+	display: inline-block;
+	height:auto;
+}
+
+#main-images
+{
+	display:flex;
+	height:260px;
+	width: 100%;
+	justify-content:space-between;
+	margin-bottom: 15px;
+}
+
+
+#main-images img
+{
+	height: 280px;
+	width:280px;
+	transition: transform .5s;
+    transition-property: transform;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 4s;
+}
+
+#main-images img:hover 
+{
+	width: 340px;
+	height:340px;
+transition-property: transform;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 4s;
+
+}
+
+/*latest......*/
+#latest
+{
+	margin-top: 100px;
+	width: 90%;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#list-2
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.image1
+{
+	margin:4px;
+	padding: 4px;
+	width: 45%;
+	height: 100px;
+	position: relative;
+}
+.image1-inside
+{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background-size: contain;
+	margin-right: 2%;
+}
+.image1-inside img
+{
+	position: relative;
+	width: 90%;
+	height: 100%;
+}
+.icon 
+{
+	color:transparent;
+    top: 30%;
+    left: 40%;
+    position: absolute;
+    }
+
+.image1-inside:hover #play
+{
+	color:green;
+	padding:5px;}
+
+.image1 .text1
+{
+	position: absolute;
+	top: 30%;
+    left: 50%;
+}
+.image1 .menu
+{
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.menu i
+{
+	position: relative;
+	font-size: 1rem;
+
+}
+.menu .drop-menu
+{
+	background-color: black;
+    width:150px;
+    border-radius: 15px;
+    position:absolute;
+    box-sizing: border-box;
+    color:white;
+    right: 0%;
+    top:30%;
+    z-index: 10;
+    display: none;
+}
+
+.menu .drop-menu ul li
+{
+	
+	height: auto;
+	list-style: none;
+	left:10px;
+	padding-bottom: 5px;
+	}
+.menu .drop-menu ul li i{
+	padding-right: 3px;
+}
+
+.drop-menu a
+{
+	
+	color: white;
+}
+#drop:target
+{
+	display: block;
+}
+.menu a:target #drop
+{
+   display: none;
+}
+
+#music:target
+{
+	visibility: visible;
+}
+
+
+
+
+/*-----popular-artist-------*/
+#popular-artist
+{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+	display: flex;
+	}
+
+
+.list3
+{
+	width: 100%;
+	height:auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+    
+}
+
+.list3-image
+{
+	margin:15px;
+}
+
+.list3-image figure
+{
+	position: relative;
+	width: 120px;
+	height: 120px;
+	margin: 5px;
+}
+
+.list3-image figure img
+{
+	
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border-radius: 50%;
+}
+
+.list3-image figure:hover #play
+{
+	padding: 5px;
+	border-radius: 50%;
+   	color:black;
+}
+
+/*.........stations.........*/
+#stations
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+	padding:0px 10px;
+	background-color: #0f174f;
+	margin-bottom: 20px;
+	padding: 30px 20px 25px;
+}
+
+.stations-logo
+{
+	width: 12%;
+	margin-right: 4%;
+}
+
+.box-1-yellow
+{
+	position: relative;
+	width: 100%;
+	height: 90px;
+	background-color:yellow;
+	
+}
+
+.box-2-yellow
+{
+	position: absolute;
+	left:5%;
+	top:-7%;
+	width: 90%;
+	height:110%;
+	background-color: white;
+}
+
+.box-3-orange
+{
+	position: absolute;
+	top:-10%;
+	left: 7%;
+	width: 85%;
+	height: 120%;
+	background-color:red;
+}
+.box-3-orange i{
+	font-size: 2rem;
+}
+
+.station-inside
+{
+	height: auto;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.station-inside-image
+{
+	height: 100px;
+	width: 100px;
+	position: relative;
+}
+
+.station-inside-image img
+{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.text-placement
+{
+	position: absolute;
+	top:40%;
+	left: 35%;
+	font-weight: 700;
+}
+
+/*stations-outside..next box*/
+#station-outside
+{
+	width: 100%;
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.station-outside-image
+{
+	position: relative;
+	height:200px;
+    width: 270px;
+    margin:10px;
+    overflow: hidden;
+    justify-content: space-between;
+    
+}
+
+.station-outside-image img
+{
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	transition: all 1s;
+}
+
+.station-outside-image .text-position
+{
+	top:50%;
+	left: 50%;
+	font-size: 700;
+}
+
+.station-outside-image img:hover
+{
+	width: 300px;
+	height: 250px;
+}
+
+/*.....lastest-songs...*/
+
+.lastest-songs
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.inside-eng
+{
+	display: flex;
+	flex-wrap: wrap;
+	height:auto;
+	width: 100%;
+justify-content: space-between;
+	font-size: 1rem;
+}
+
+.inside-eng .inside-eng-img img
+{
+	width: 200px;
+	height: 200px;
+}
+
+/*.....aside....section*/
+aside
+{
+	margin-right: 5%;
+	margin-top: 145px;
+	width: 25%;
+	display: inline-block;
+	z-index: -1;
+	height:auto;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.queue1
+{
+	text-decoration: none;
+    position: relative;
+	margin-left: 65%;
+	font-size: 1.5rem;
+	font-family: monospace;
+	color: #3AA090;
+	margin-bottom: 20px;
+}
+
+
+aside .drop-menu
+{
+    width:200px;
+    text-align: right;
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: none;
+    color: lightgrey;
+    position:absolute;
+    right: 7%;
+    top:34.5%;
+    z-index: 10;
+}
+
+aside .drop-menu ul li
+{
+	
+	text-align: left;
+	right: 0;
+	width: 100%;
+	height: auto;
+	list-style: none;
+	border-bottom: 1px solid #B0B2B8;
+}
+
+
+
+#drop-queue:target
+{
+	display: block;
+}
+#exit-queue:target #drop-queue
+{
+   display: none;
+}
+
+aside a:focus
+{
+	outline: none;
+}
+
+.queue-list
+{
+	width: 85%;
+	height:auto;
+	margin-left:14%;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.inside-queue-list
+{
+	height: 90px;
+	width: 100%;
+margin-bottom: 15px;
+	position: relative;
+}
+
+.inside-queue-list-image
+{
+	height:inherit;
+	width:90px;
+	position: relative;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-queue-list-image img
+{
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease-in-out;
+}
+
+.inside-queue-list-image .num{
+	
+	padding-right: 15px;
+
+}
+#queue-1 img:hover
+{
+	border:none;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px yellow;
+}
+#queue-2 img:hover
+{
+	border:none;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px maroon;
+}
+#queue-3 img:hover
+{
+	border:none;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px red;
+}
+
+#queue-4 img:hover
+{
+	border:none;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px green;
+}
+
+#queue-5 img:hover
+{
+	border:none;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px violet;
+}
+
+.inside-queue-text
+{
+	font-weight: bold;
+	font-size: 15px;
+	position: absolute;
+	top:25%;
+	left:30%;
+	margin-left: 12%;
+	font-weight: 700;
+}
+
+.queue-color
+{
+	font-weight: 100;
+	color: lightgrey;
+}
+
+.queue-icon
+{
+	position: absolute;
+	top:30%;
+	right: 0;
+	font-size: 20px;
+}
+
+/*music section.......*/
+#music
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height:auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding:5px 70px 5px;
+	box-sizing: border-box;
+	background-color:#524949;
+	visibility: hidden;/*on it on player section*/
+	
+	
+}
+#music img
+{
+	width: 75px;
+	height: 75px;
+}
+.name
+{
+	line-height: 1.5;
+	margin-right: 1.5%;
+}
+.text3
+{
+	color:grey;
+}
+.pause
+{
+	margin-top: -10px;
+	border:1px solid grey;
+	padding: 8px;
+	border-radius: 50%;
+}
+.player
+{
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+
+.player>div
+{
+	margin:auto;
+}
+
+.buttons
+{
+	width: 50%;
+	height: auto;
+	padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.player-line
+{
+	
+width: 100%;
+	display: flex;
+}
+
+.border-player-line
+{
+	
+	margin:5px 15px 0px;
+	width:100%;
+	height: 0px;
+	width: 90%;
+	border:2px solid grey;
+	border-radius: 5px
+}
+
+.border-player-line > div
+{
+	border-radius:5px 0 0 5px;
+}
+.coloring
+{
+	margin-left: -1%;
+	margin-top: -0.5%;
+	width: 50%;
+	height: inherit;
+	border:3px solid green;
+	position: relative;
+}
+
+.circle
+{
+    position: absolute;
+    top: -10px;
+    left: 100%;
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
